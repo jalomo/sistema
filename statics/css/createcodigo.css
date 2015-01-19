@@ -1,0 +1,357 @@
+
+@font-face {
+    font-family: "nexa-light";
+    src: url("../css/font/Nexa Light.otf");
+}
+
+
+
+#createcodigo,#createciudad#codigo-created,#eventos-clientes,#reportes-container{
+	font-size:18px;
+	color:#808080;
+	position:absolute; 
+	display: block; 
+	bottom: 0px; 
+	top: 20px; 
+	height:400px; 
+	width:100%; 
+	margin-left:200px;
+
+}
+
+.rep{
+	margin-left: 20px;
+}
+
+#eventos-clientes{
+  font-family:nexa-light;
+}
+
+#createcodigo p, #createciudad p{
+	font-size: 24px;
+}
+
+#form-codigo label, #createciudad p{
+	margin-left: 20px;
+
+}
+
+input[type="text"]{
+	width:300px; 
+	height:30px;
+	background-color: rgba(0,0,0,0.1);
+	border:1px solid #333333;
+}
+
+input[type="submit"],#btn-generar{
+	background:#34495e; 
+	border-color:#34495e; 
+	border-radius:5px; 
+	color:#fff; 
+	font-size:15px; 
+	width:200px; 
+	height:30px;
+	margin-left: 20px;
+
+}
+
+#p-eventos{
+  font-size:24px;
+	color:#808080;
+}
+
+#clientes-eventos,#boletos-evento{
+position:absolute; 
+display: block; 
+bottom: 0px; 
+top: 100px; 
+height:200px; 
+width:900px; 
+margin-left:200px;
+
+}
+
+#clientes-eventos a,#boletos-eventos a{
+	text-decoration: none;
+}
+
+.eventos{
+	border-bottom:1px solid #808080 ;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	color:#2c3e50;
+}
+
+
+
+#eventos-clientes {
+
+	height: 100%;
+}
+
+.cliente{
+	
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	color:#2c3e50;
+
+	
+}
+
+
+.mod-new div{
+   float: left;
+}
+
+.mod-new div:last-child{
+	margin-left: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+.mod-container .mod-izq,.mod-container .mod-derecho{
+
+	float: left;
+
+}
+
+
+.mod-container .mod-izq{
+	width: 40%;
+}
+
+.mod-container .mod-derecho{
+	width: 60%;
+}
+
+
+
+.mod-derecho div {
+    float: left;
+    margin-left: 20px;
+}
+
+.mod-line{
+	clear: both;
+}
+
+.trans-izq div{
+	float: left;
+	width: 15%;
+}
+
+
+#makeboletos {
+	margin-left: 30px;
+	float: left;
+}
+
+#selec select{
+	margin-left: 28px;
+}
+
+#cant {
+	margin-top: 10px;
+}
+
+#cant input[type="number"]{
+	margin-left: 20px;
+	padding: 10px;
+}
+
+#txt {
+	margin-top: 10px;
+}
+
+.text-tarea {
+	margin-left: 45px;
+	padding: 20px;
+}
+
+#btn{
+	margin-top: 20px;
+	margin-left: 0px;
+}
+
+#btn input[type="submit"]{
+	margin-left: 0px;
+}
+
+#img{
+	margin-top: 20px;
+}
+
+.eveboletos div{
+	float: left;
+	width: 20%;
+
+}
+
+#clean-div{
+	clear: both;
+}
+
+.eveboletos-headers div{
+	float: left;
+	width: 20%;
+}
+
+.eve-boletos{
+   margin-left: 20px;
+   float:left;
+   width: auto;
+   font-family:nexa-light;
+
+}
+
+
+#casas {
+	margin-left: 30px;
+	float: left;
+}
+
+#form_crearcasa > div{
+	margin-top: 20px;
+}
+
+#casa_img input[type="file"]{
+	margin-left: 45px;
+}
+
+#casa_desc input[type="text"]{
+	margin-left: 15px;
+}
+
+#casa_name input[type="text"]{
+	margin-left: 38px;
+}
+
+#casa_selec select{
+	margin-left: 47px;
+}
+
+#chk_items{
+	margin-left: 85px;
+}
+
+#chk_items div{
+	float: left;
+	margin-left: 15px;
+}
+
+#casa_clear{
+	clear: both;
+}
+
+#casa_btn{
+
+	margin-top: 20px;
+}
+
+#servicios {
+	margin-left: 30px;
+	float: left;
+}
+
+#servicios_cuartos{
+	margin-top: 40px;
+}
+
+#chk-servicios div{
+	float: left;
+	margin-left: 10px;
+}
+
+#chk-clean{
+	clear: both;
+}
+
+#form_addcuarto div{
+	margin-top: 10px;
+}
+
+#cuarto_desc input[type="text"]{
+	margin-left: 10px;
+}
+
+#cuarto_precio input[type="text"]{
+	margin-left: 49px;
+}
+
+#cuartos-casa {
+	margin-left: 30px;
+	float: left;
+}
+
+#container-ciudades{
+	float: left;
+	margin-left: 20px;
+	font-size: 1em;
+}
+
+#selec-boletos > div{
+	float: left;
+}
+
+#boletos-d p{
+	margin-top: 0px;
+	margin-left: 10px;
+
+}
+
+.eventos-item > div{
+	float: left;
+	width: auto;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#p-eventos{
+	padding-left: 20px;
+}
+
+.datos-clientes > div{
+	float: left;
+	margin-left: 20px;
+}
+
+#clean-mod{
+	clear: both;
+}
+
+.status-servicios{
+	margin-left: 20px;
+
+}
+
+.mod-new button{
+	background: #34495e;
+border-color: #34495e;
+border-radius: 5px;
+color: #fff;
+font-size: 15px;
+width: 200px;
+height: 30px;
+}
+
+#select-ciudades{
+	margin-left: 35px;
+}
+
+#radio-sex div{
+	float: left;
+	margin-left: 95px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.clean-vendededor{
+	clear: both;
+}
+
+
+

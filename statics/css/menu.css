@@ -1,0 +1,39 @@
+ .menu- { width:200px; height:900px; background:#333333; border-radius:5px; }
+
+.contenido-menu{ width:810px;} 
+
+
+.menus-{ height:40px; color:#ecf0f1; border-radius:10px;}
+
+.menus-:hover{ background:#34495e;}
+
+.menus-texto { text-decoration:none ; cursor:pointer; margin-left:20px; top:10px; position:relative; color:#ecf0f1; width:198px; font-size:20px; }
+.span-top{margin-top:10px;}
+
+.margen-top{ margin-top:10px;}
+
+.fomulario-{ width:800px;  margin-left:10px; color:#ecf0f1; border-radius:5px; border-radius:5px;  border:2px solid #16a085;}
+
+.entrada{ width:280px;border-radius:5px; height:30px;border:2px solid #16a085; color:#16a085; font-size:18px; background-color: rgba(0,0,0,0.1); }
+
+/*body{ background-image:url(../img/fondo1.png);
+ background-repeat: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+body{ background:#fff;}
+
+/*body{ 
+background-image:url(../statics/img/fondo pagina 2.png);
+no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}*/
+
+.lista-m{ width:250px; height:50px; color:#2c3e50; font-size:18px; }
+
+.fomulario-lista{ width:800px; height:895px;  margin-left:210px; color:#ecf0f1; border-radius:5px; border-radius:5px; margin-top:10px; border:2px solid #16a085;}
+
