@@ -49,7 +49,7 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';//'sql306.eshost.es';
-$db['default']['username'] ='conexi19_sistema ';//'divestis_conex';//'eshos_14698203';
+$db['default']['username'] ='root';//'conexi19_sistema ';//'divestis_conex';//'eshos_14698203';
 $db['default']['password'] ='';//'dZkIA,Un8Ft9';//'conex86';//'libros1';
 $db['default']['database'] = 'conexi19_sistema';//'divestis_conexion_eventos';//'eshos_14698203_eventos';
 $db['default']['dbdriver'] = 'mysql';

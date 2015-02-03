@@ -200,7 +200,9 @@ border-radius: 10px;
              <div id="e-nombre"><p><?php echo($dataEvento[0]["eventoNombre"]);?></p></div>
              <div id="e-hr"><hr></div>
              <div id="e-fecha"><p><?php echo($dataEvento[0]["eventoFecha"])?></p></div>
-             <div id="e-precio"><p>$<?php echo($dataEvento[0]["euPrecio"])?></p></div>
+             <?php $total_mod=$this->Company->get_precio_modificadores($dataEvento[0]["euId"]);?>
+             <?php $precio=$dataEvento[0]["euPrecio"]+$total_mod;?>
+             <div id="e-precio"><p>$<?php echo($precio)?></p></div>
           </div>
 
 

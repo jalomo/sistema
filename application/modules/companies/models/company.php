@@ -12,6 +12,25 @@ class Company extends CI_Model{
         parent::__construct();
     }
 	
+	/*
+	* metodo para obtener los precios de los modificadores de un boleto.
+	* id_eventosusuarios= id de la tabla eventosusuarios.
+	* autor: jalomo <jalomo@hotmail.es>
+	*/
+	public function get_precio_modificadores($id_evetosusuarios){
+		$this->db->where('rowEventosUsuarios',$id_evetosusuarios);
+		$query=$this->db->get('moduser');
+		if($query->num_rows()>0){
+			$total=0;
+			foreach($query->result() as $res):
+			$total=$total+$res->modPrecio;
+			endforeach;
+			return $total;
+		}else{
+			return 0;	
+		}
+	}
+	
 	 public function save_casas($data)
     {
         $this->db->insert('casas', $data);
@@ -2694,7 +2713,7 @@ public function checkExistBoleto($idr,$idu,$ide){
    	     settype($ide, "integer");
    	     settype($idu, "integer");
       $data;
-   	  $query="SELECT eventos.eventoNombre,eventos.eventoFecha,eventosusuarios.euPrecio 
+   	  $query="SELECT eventos.eventoNombre,eventos.eventoFecha,eventosusuarios.euPrecio,eventosusuarios.euId 
    	  FROM eventos,eventosusuarios 
    	  WHERE eventos.eventoId = ? AND eventos.eventoId = eventosusuarios.euIdEvento AND eventosusuarios.euIdUsuario = ?";
    	  $res = $this->db->query($query,array($ide,$idu));

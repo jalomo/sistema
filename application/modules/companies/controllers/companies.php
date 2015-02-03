@@ -2167,6 +2167,12 @@ public function getCiudadesEvento(){
 	echo(json_encode($res));
 }
 
+/*
+* idu= id usuario
+* idr= fila de la tabla eventosusuarios
+* ide= id del evento
+* codigo= codigo de barras del boleto
+*/
 public function printBoletoUser($idu="",$idr="",$ide="",$codigo=""){
 	/*if($ide!="" && $codigo!=""){
       $data["dataBoleto"] =$this->clientes->getDataBoleto($ide);

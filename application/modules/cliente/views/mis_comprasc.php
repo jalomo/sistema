@@ -199,6 +199,8 @@ font-weight:bold;
             
 
               <ul class="list-group">
+              	
+                <?php if($user_eventos!=0):?>
                 <?php foreach($user_eventos as $evento => $campo):?>
 
                  <li class="list-group-item">
@@ -211,6 +213,7 @@ font-weight:bold;
                  </li>
 
                 <?php endforeach;?>
+                <?php endif;?>
             </ul>
 
 
